@@ -1,0 +1,33 @@
+<PISI>
+    <Source>
+        <Name>python-singledispatch</Name>
+        <Packager>
+            <Name>Marco Martini</Name>
+            <Email>deckedspring@gmail.com</Email>
+        </Packager>
+        <License>BSD-2-Clause</License>
+        <Summary xml:lang="en">This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3.</Summary>
+        <Description xml:lang="en">Transforms a function into a single-dispatch generic function.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>python-singledispatch</Name>
+        <Summary xml:lang="en">This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3.</Summary>
+        <Description xml:lang="en">Transforms a function into a single-dispatch generic function.
+</Description>
+        <PartOf>programming.python</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib/python2.7</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2016-01-02</Date>
+            <Version>3.4.0.3</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Marco Martini</Name>
+            <Email>deckedspring@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
