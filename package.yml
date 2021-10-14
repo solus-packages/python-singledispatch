@@ -1,8 +1,8 @@
 name       : python-singledispatch
-version    : 3.4.0.3
-release    : 2
+version    : 3.7.0
+release    : 3
 source     :
-    - https://pypi.python.org/packages/source/s/singledispatch/singledispatch-3.4.0.3.tar.gz : 5b06af87df13818d14f08a028e42f566640aef80805c3b50c5056b086e3c2b9c
+    - https://pypi.python.org/packages/source/s/singledispatch/singledispatch-3.7.0.tar.gz : c1a4d5c1da310c3fd8fccfb8d4e1cb7df076148fd5d858a819e37fffe44f3092
 license    : BSD-2-Clause
 component  : programming.python
 summary    : This library brings functools.singledispatch from Python 3.4 to Python 2.6-3.3.
@@ -10,6 +10,8 @@ description: |
     Transforms a function into a single-dispatch generic function.
 builddeps  :
     - python-setuptools
+rundeps    :
+    - python-six
 setup      : |
     %python_setup
 install    : |
